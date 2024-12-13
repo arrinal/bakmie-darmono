@@ -24,15 +24,21 @@ export const metadata: Metadata = {
     url: 'https://bakmiedarmono.com',
     siteName: 'Bakmie Darmono',
     title: 'Bakmie Darmono',
-    description: 'Bakmie karet otentik dengan topping paling lengkap di Jakarta',
+    description: 'Bakmie karet otentik, bakmie karet pedas dengan topping paling lengkap di Jakarta',
     images: [
       {
-        url: '/bakmi-darmo.jpeg',
+        url: '/about-bakmie-darmono.jpeg',
         width: 1200,
         height: 630,
         alt: 'Bakmie Darmono',
       }
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Bakmie Darmono',
+    description: 'Bakmie karet otentik, bakmie karet pedas dengan topping paling lengkap di Jakarta',
+    images: ['/about-bakmie-darmono.jpeg'],
   },
 };
 

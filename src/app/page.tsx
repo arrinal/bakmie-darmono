@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Header / Hero Section */}
-      <header className="relative h-[70vh] md:flex hidden items-center justify-center">
+      <header className="relative h-[70vh] flex items-center justify-center">
         {/* Hero Background Image */}
         <div className="absolute inset-0 w-full h-full">
           <Image
@@ -201,7 +201,7 @@ export default function Home() {
                 </div>
                 <Button asChild className="w-full mt-4 bg-green-800 hover:bg-green-900">
                   <a
-                    href="https://maps.google.com"
+                    href="https://maps.app.goo.gl/MBfz9Y6Khir9YhRY6"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
