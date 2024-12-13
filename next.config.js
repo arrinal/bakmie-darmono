@@ -12,9 +12,6 @@ const nextConfig = {
       },
     ]
   },
-  experimental: {
-    networkTimeout: 60000,
-  },
   poweredByHeader: false,
   images: {
     domains: ['localhost'],
